@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # fix playing order of mp3 files in usb devices attached to stereo 
-# systems which sort by date
+# systems which sort by directory order (ls -U)
 require 'find'
 require 'fileutils'
 
